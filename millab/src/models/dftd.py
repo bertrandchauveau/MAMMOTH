@@ -14,7 +14,7 @@ import random
 from src.models.layers import create_mlp, GlobalGatedAttention
 from src.models.abmil import ABMIL
 from src.models.mil_template import MIL
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 # from utils import eval_metric
 from dataclasses import dataclass
