@@ -4,7 +4,7 @@ from transformers import PretrainedConfig, PreTrainedModel, AutoModel, AutoConfi
 import torch
 import torch.nn as nn
 from src.components import create_mlp
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 
 class TransLayer(nn.Module):
