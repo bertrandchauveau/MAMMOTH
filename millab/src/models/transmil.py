@@ -5,7 +5,7 @@ from nystrom_attention import NystromAttention
 from src.models.layers import create_mlp
 from transformers import PreTrainedModel, PretrainedConfig, AutoModel, AutoConfig
 from src.models.mil_template import MIL
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 
 class TransLayer(nn.Module):
