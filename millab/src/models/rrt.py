@@ -6,7 +6,7 @@ from torch import nn
 from src.models.mil_template import MIL
 from transformers import PretrainedConfig
 from transformers import PreTrainedModel, AutoConfig, AutoModel
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 MODEL_TYPE = "rrtmil"
 
