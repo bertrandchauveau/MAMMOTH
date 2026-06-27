@@ -6,7 +6,7 @@ import pathlib
 from dataclasses import dataclass
 
 from src.models.layers import create_mlp
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 from torch_geometric.nn import global_mean_pool, global_max_pool
 from torch_geometric.nn import GlobalAttention as GeoGlobalAttention
 from src.models.mil_template import MIL
