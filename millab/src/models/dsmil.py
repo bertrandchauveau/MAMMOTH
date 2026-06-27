@@ -10,7 +10,7 @@ from transformers import PretrainedConfig, PreTrainedModel, AutoConfig, AutoMode
 
 from src.models.mil_template import MIL
 from src.models.layers import create_mlp
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 
 # --- Core Model Components ---
