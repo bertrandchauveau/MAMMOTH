@@ -3,7 +3,7 @@ from transformers import PretrainedConfig, PreTrainedModel, AutoConfig, AutoMode
 import torch.nn as nn
 import torch.nn.functional as F
 from src.models.mil_template import MIL
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 
 """
