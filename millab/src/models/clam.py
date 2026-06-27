@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from src.models.mil_template import MIL
 from src.models.layers import GlobalGatedAttention, GlobalAttention, create_mlp
 from transformers import PretrainedConfig, PreTrainedModel, AutoModel, AutoConfig
-from src.mammoth import Mammoth
+from mammoth import Mammoth
 
 
 # Define the core CLAMSB model
